@@ -1,0 +1,46 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal {
+    width: 50%;
+    height: 50%;
+    background: #eee;
+    border-radius: 10px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.modal-header {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+.modal-header h2 {
+    margin: 0;
+}
+.modal-header button {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+    background: #eee;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+.modal-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
