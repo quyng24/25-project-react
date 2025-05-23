@@ -1,0 +1,84 @@
+.profile-container {
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+.profile-card {
+    display: flex;
+    padding: 20px;
+}
+.card-img {
+    width: 50%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-img img {
+    width: 80%;
+    border-radius: 50%;
+}
+.card-content {
+    width: 50%;
+}
+.profile-info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.profile-info p:nth-child(1) {
+    margin: auto 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.username {
+    margin: auto 0;
+    color: #888;
+}
+.bio {
+    margin: 0;
+}
+.profile-detail {
+    width: 100%;
+    background: #eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+.stat-value {
+    font-size: 25px;
+    font-weight: bold;
+}
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.profile-details p {
+    color: #888;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.profile-details p i {
+    margin-right: 10px;
+}
+.profile-details p a {
+    font-size: 14px;
+}
+.view-profile-button {
+    display: inline-block;
+    width: 90%;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
